@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Fri Jun 27 10:50:39 2025
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/krushna_dev/verilog_file/alu/gtkwave_file/gtkwave.gtkw"
+[timestart] 0
+[size] 1099 600
+[pos] -1 -1
+*-6.302517 64 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 168
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+tb_alu.select[2:0]
+tb_alu.sum[3:0]
+tb_alu.carry
+tb_alu.sub[3:0]
+tb_alu.borrow
+tb_alu.and1[3:0]
+tb_alu.xor1[3:0]
+tb_alu.or1[3:0]
+tb_alu.in2[3:0]
+@29
+tb_alu.in1[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
