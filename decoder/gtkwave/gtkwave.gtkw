@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Jun 28 13:04:06 2025
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/krushna_dev/verilog_file/decoder/gtkwave/gtkwave.gtkw"
+[timestart] 2
+[size] 1027 600
+[pos] -1 -1
+*-3.688525 8 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 138
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@800028
+tb_decoder_2to4.in[1:0]
+@28
+(0)tb_decoder_2to4.in[1:0]
+(1)tb_decoder_2to4.in[1:0]
+@1001200
+-group_end
+@800029
+tb_decoder_2to4.out[3:0]
+@29
+(0)tb_decoder_2to4.out[3:0]
+(1)tb_decoder_2to4.out[3:0]
+(2)tb_decoder_2to4.out[3:0]
+(3)tb_decoder_2to4.out[3:0]
+@1001201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
