@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Jun 29 08:21:04 2025
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/krushna_dev/verilog_file/priority_encoder/gtkwave/gtkwave.gtkw"
+[timestart] 0
+[size] 1029 600
+[pos] -1 -1
+*-6.302517 109 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 105
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+tb_p_encoder.d0
+tb_p_encoder.d1
+tb_p_encoder.d2
+tb_p_encoder.d3
+tb_p_encoder.e_out
+tb_p_encoder.y0
+@29
+tb_p_encoder.y1
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,103 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x651e7a932d90 .scope module, "tb_p_encoder" "tb_p_encoder" 2 1;
+ .timescale 0 0;
+v0x651e7a983bd0_0 .var "d0", 0 0;
+v0x651e7a983c90_0 .var "d1", 0 0;
+v0x651e7a983d60_0 .var "d2", 0 0;
+v0x651e7a983e60_0 .var "d3", 0 0;
+v0x651e7a983f30_0 .net "e_out", 0 0, L_0x651e7a9847c0;  1 drivers
+v0x651e7a983fd0_0 .net "y0", 0 0, L_0x651e7a984410;  1 drivers
+v0x651e7a9840a0_0 .net "y1", 0 0, L_0x651e7a984170;  1 drivers
+S_0x651e7a932f20 .scope module, "uut" "p_encoder" 2 10, 3 1 0, S_0x651e7a932d90;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "d0";
+    .port_info 1 /INPUT 1 "d1";
+    .port_info 2 /INPUT 1 "d2";
+    .port_info 3 /INPUT 1 "d3";
+    .port_info 4 /OUTPUT 1 "y1";
+    .port_info 5 /OUTPUT 1 "y0";
+    .port_info 6 /OUTPUT 1 "e_out";
+L_0x651e7a959c70 .functor NOT 1, v0x651e7a983d60_0, C4<0>, C4<0>, C4<0>;
+L_0x651e7a984300 .functor AND 1, L_0x651e7a959c70, v0x651e7a983c90_0, C4<1>, C4<1>;
+v0x651e7a96f5c0_0 .net *"_ivl_10", 0 0, L_0x651e7a9846f0;  1 drivers
+v0x651e7a9832e0_0 .net *"_ivl_2", 0 0, L_0x651e7a959c70;  1 drivers
+v0x651e7a9833c0_0 .net *"_ivl_4", 0 0, L_0x651e7a984300;  1 drivers
+v0x651e7a983480_0 .net *"_ivl_8", 0 0, L_0x651e7a9845c0;  1 drivers
+v0x651e7a983560_0 .net "d0", 0 0, v0x651e7a983bd0_0;  1 drivers
+v0x651e7a983670_0 .net "d1", 0 0, v0x651e7a983c90_0;  1 drivers
+v0x651e7a983730_0 .net "d2", 0 0, v0x651e7a983d60_0;  1 drivers
+v0x651e7a9837f0_0 .net "d3", 0 0, v0x651e7a983e60_0;  1 drivers
+v0x651e7a9838b0_0 .net "e_out", 0 0, L_0x651e7a9847c0;  alias, 1 drivers
+v0x651e7a983970_0 .net "y0", 0 0, L_0x651e7a984410;  alias, 1 drivers
+v0x651e7a983a30_0 .net "y1", 0 0, L_0x651e7a984170;  alias, 1 drivers
+L_0x651e7a984170 .arith/sum 1, v0x651e7a983e60_0, v0x651e7a983d60_0;
+L_0x651e7a984410 .arith/sum 1, v0x651e7a983e60_0, L_0x651e7a984300;
+L_0x651e7a9845c0 .arith/sum 1, v0x651e7a983e60_0, v0x651e7a983d60_0;
+L_0x651e7a9846f0 .arith/sum 1, L_0x651e7a9845c0, v0x651e7a983c90_0;
+L_0x651e7a9847c0 .arith/sum 1, L_0x651e7a9846f0, v0x651e7a983bd0_0;
+    .scope S_0x651e7a932d90;
+T_0 ;
+    %vpi_call 2 21 "$dumpfile", "p_encoder.vcd" {0 0 0};
+    %vpi_call 2 22 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x651e7a932d90 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983e60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983d60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983c90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983bd0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983e60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983d60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983c90_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x651e7a983bd0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983e60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983d60_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x651e7a983c90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983bd0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983e60_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x651e7a983d60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983c90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983bd0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x651e7a983e60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983d60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983c90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x651e7a983bd0_0, 0, 1;
+    %delay 50, 0;
+    %vpi_call 2 33 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_p_encoder.v";
+    "p_encoder.v";
