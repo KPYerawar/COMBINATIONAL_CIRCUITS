@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Jun 30 12:21:46 2025
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/krushna_dev/verilog_file/two_bit_comparator/gtkwave/gtkwave.gtkw"
+[timestart] 0
+[size] 1068 600
+[pos] -1 -1
+*-4.480721 57 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 129
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+tb_comparator.a0
+tb_comparator.a1
+tb_comparator.b0
+tb_comparator.b1
+tb_comparator.a_eq_b
+tb_comparator.a_gt_b
+@29
+tb_comparator.b_gt_a
+[pattern_trace] 1
+[pattern_trace] 0

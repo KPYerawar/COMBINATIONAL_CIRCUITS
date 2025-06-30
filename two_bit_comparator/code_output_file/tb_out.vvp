@@ -1,0 +1,61 @@
+$date
+	Mon Jun 30 17:49:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_comparator $end
+$var wire 1 ! b_gt_a $end
+$var wire 1 " a_gt_b $end
+$var wire 1 # a_eq_b $end
+$var reg 1 $ a0 $end
+$var reg 1 % a1 $end
+$var reg 1 & b0 $end
+$var reg 1 ' b1 $end
+$scope module uut $end
+$var wire 1 $ a0 $end
+$var wire 1 % a1 $end
+$var wire 1 # a_eq_b $end
+$var wire 1 " a_gt_b $end
+$var wire 1 & b0 $end
+$var wire 1 ' b1 $end
+$var wire 1 ! b_gt_a $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0&
+0%
+0$
+1#
+0"
+0!
+$end
+#10
+1"
+0#
+1$
+#20
+1&
+0$
+1%
+#30
+1$
+#40
+0"
+1#
+1'
+#50
+1!
+0#
+0&
+0%
+#60
+1&
+0$
+#70
