@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Jul  1 12:37:15 2025
+[*]
+[dumpfile] "/home/krushna_dev/verilog_file/Popcount:/code_output_file/out.vcd"
+[dumpfile_mtime] "Tue Jul  1 11:51:27 2025"
+[dumpfile_size] 653
+[savefile] "/home/krushna_dev/verilog_file/Popcount:/gtkwave_file/gtkwave.gtkw"
+[timestart] 0
+[size] 1105 600
+[pos] -1 -1
+*-4.989185 8 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 178
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@800028
+tb_pop.in[7:0]
+@28
+(0)tb_pop.in[7:0]
+(1)tb_pop.in[7:0]
+(2)tb_pop.in[7:0]
+(3)tb_pop.in[7:0]
+(4)tb_pop.in[7:0]
+(5)tb_pop.in[7:0]
+(6)tb_pop.in[7:0]
+(7)tb_pop.in[7:0]
+@1001200
+-group_end
+@c00025
+tb_pop.count[3:0]
+@28
+(0)tb_pop.count[3:0]
+(1)tb_pop.count[3:0]
+(2)tb_pop.count[3:0]
+(3)tb_pop.count[3:0]
+@1401201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
