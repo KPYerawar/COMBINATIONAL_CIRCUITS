@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Jul  3 17:18:24 2025
+# Process ID         : 6469
+# Current directory  : /home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.runs/synth_1
+# Command line       : vivado -log seven_seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seven_seg.tcl
+# Log file           : /home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.runs/synth_1/seven_seg.vds
+# Journal file       : /home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.runs/synth_1/vivado.jou
+# Running On         : VLSIdevbox
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+# CPU Frequency      : 2564.635 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 8210 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 10358 MB
+# Available Virtual  : 5597 MB
+#-----------------------------------------------------------
+source seven_seg.tcl -notrace

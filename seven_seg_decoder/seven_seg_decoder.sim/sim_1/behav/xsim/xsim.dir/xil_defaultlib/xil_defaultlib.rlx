@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+/home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.srcs/sim_1/new/tb.v,1751543032,verilog,,,,tb,,,../../../../../../2025.1/data/rsb/busdef,,,,,
+/home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.srcs/sources_1/new/seven_seg.v,1751542468,verilog,,/home/krushna_dev/vivado_codes/seven_seg_decoder/seven_seg_decoder.srcs/sim_1/new/tb.v,,seven_seg,,,../../../../../../2025.1/data/rsb/busdef,,,,,
