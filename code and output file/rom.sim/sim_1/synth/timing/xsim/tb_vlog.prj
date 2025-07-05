@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../2025.1/data/rsb/busdef" \
+"tb_time_synth.v" \
+"../../../../../rom.srcs/sim_1/new/tb.v" \
+
+# Do not sort compile order
+nosort
